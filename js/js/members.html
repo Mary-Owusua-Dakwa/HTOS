@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Members</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Church Members</h1>
+  <form id="memberForm">
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="text" id="phone" placeholder="Phone" />
+    <button type="submit">Add Member</button>
+  </form>
+
+  <table id="membersTable">
+    <thead>
+      <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script type="module" src="js/members.js"></script>
+</body>
+</html>
